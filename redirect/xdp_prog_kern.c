@@ -9,8 +9,8 @@
 #include "../common/rewrite_helpers.h"
 
 /* Defines xdp_stats_map */
-#include "../common/xdp_stats_kern.h"
 #include "../common/xdp_stats_kern_user.h"
+#include "../common/xdp_stats_kern.h"
 
 #ifndef memcpy
 #define memcpy(dest, src, n) __builtin_memcpy((dest), (src), (n))
